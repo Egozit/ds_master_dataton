@@ -56,19 +56,21 @@
 | District | Район | str| |
 | PublicPhone | Номер телефона | str | |
 | WorkingHours | Время работы | str | |
-| ClarificationOfWorkingHours | Уточнение времени работы | | |
-| geoData | Координаты расположения торгового объекта | list | |
+| ClarificationOfWorkingHours | Уточнение времени работы | str | |
 | PlaceSize | Размер объекта | int | |
-| tpu_TPUName | Название транспортно-пересадочного узла (ТПУ)| | |
-| tpu_global_id | id ТПУ| | |
-| tpu_AdmArea | Административный округ ТПУ| | |
-| tpu_District | Район ТПУ | | |
-| tpu_NearStation | Ближайшая к ТПУ станция| | |
-| tpu_YearOfComissioning | Год сдачи ТПУ в эксплуатацию | | |
-| tpu_Status | Стасус ТПУ | | |
-| tpu_AvailableTransfer| Возможные виды трансфера | | |
-| tpu_CarCapacity | Количество машино-мест возле ТПУ| | |
-| tpu_geoData | Координаты расположения ТПУ| | |
+| tpu_TPUName | Название транспортно-пересадочного узла (ТПУ)| str | |
+| tpu_global_id | id ТПУ| int | |
+| tpu_AdmArea | Административный округ, в котором находится ТПУ| str | |
+| tpu_District | Район, в котором находится ТПУ | str | |
+| tpu_NearStation | Ближайшая к ТПУ станция| str | |
+| tpu_YearOfComissioning | Год сдачи ТПУ в эксплуатацию | int | |
+| tpu_Status | Стасус ТПУ | str | проект, построен, строится |
+| tpu_AvailableTransfer| Доступные виды трансфера | str | |
+| tpu_CarCapacity | Количество машино-мест возле ТПУ| float | |
+| latitude | Координаты расположения торгового объекта: широта | float | |
+| longitude | Координаты расположения торгового объекта: долгота | float | |
+| tpu_latitude | Координаты расположения ТПУ: широта| float | |
+| tpu_longitude | Координаты расположения ТПУ: долгота| float | |
 
 
 
