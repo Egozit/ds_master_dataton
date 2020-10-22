@@ -42,6 +42,7 @@
     │   ├── integration         
     │   └── unit                
     ├── middle_results.json     # структура датасета в формате json
+    ├──02_team_hak_19_10.ipynb  # ноутбук кодом подготовки датасета
     └── README.md
 
 
