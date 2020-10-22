@@ -61,7 +61,7 @@
 | PublicPhone | Номер телефона | str | |
 | WorkingHours | Время работы | str | |
 | ClarificationOfWorkingHours | Уточнение времени работы | str | |
-| PlaceSize | Размер объекта | int | (1 = маленький, 2 = средний, 3 = большой)|
+| PlaceSize | Размер объекта | int | 1=маленький, 2=средний, 3=большой |
 | tpu_TPUName | Название транспортно-пересадочного узла (ТПУ)| str | |
 | tpu_global_id | id ТПУ| int | |
 | tpu_AdmArea | Административный округ, в котором находится ТПУ| str | |
