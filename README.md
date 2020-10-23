@@ -70,7 +70,7 @@
 | **object_size** | Размер ТО | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой |
 | **object_longitude** | Координаты расположения ТО: долгота | float | |
 | **object_latitude** | Координаты расположения ТО: широта | float | |
-| **object_real_reach_distance** | Зона охвата ТО, метры | float | 2000.0, 4000.0, 10000.0 |
+| **object_real_reach_distance** | Зона охвата ТО | float | 2000.0, 4000.0, 10000.0 |
 | **distance_to_tpu** | Расстояния от ТО до ближайшего ТПУ, метры | float | |
 | **tpu_name** | Название транспортно-пересадочного узла (ТПУ)| str | |
 | **tpu_global_id** | id ТПУ | float | |
