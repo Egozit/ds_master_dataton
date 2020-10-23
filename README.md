@@ -54,24 +54,24 @@
 
 | **Название** | **Описание** | **Тип** | **Значения** |
 | ------ | ------ | ------ | ------ |
-| **object_global_id** | id торгового объекта | int |  |
-| **object_name** | Название торгового объекта | str | |
-| **is_network_object** | Является ли торговый объект сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект |
-| **is_tpu_in_coverage** | Находится ли торговый объект в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да|
-| **object_operating_company** | Управляющая компания | str | |
-| **object_service_type** | Тип предоставляемой услуги торгового объекта | str | |
-| **object_type** | Тип объекта | str | |
-| **object_area** | Административный округ | str | |
-| **object_district** | Район | str| |
-| **object_address** | Адрес торгового объекта | str ||
-| **object_phone** | Номер телефона торгового объекта | str | |
-| **object_working_hours** | Время работы торгового объекта | str | |
-| **object_working_hours_clarification** | Уточнение времени работы торгового объекта | str | |
-| **object_size** | Размер торгового объекта | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой |
-| **object_longitude** | Координаты расположения торгового объекта: долгота | float | |
-| **object_latitude** | Координаты расположения торгового объекта: широта | float | |
-| **object_real_reach_distance** | Зона охвата торгового объекта, метры | float | 2000.0, 4000.0, 10000.0 |
-| **distance_to_tpu** | Расстояния от торгового объекта до ближайшего ТПУ, метры | float | |
+| **object_global_id** | id торгового объекта (ТО)| int |  |
+| **object_name** | Название ТО| str | |
+| **is_network_object** | Является ли ТО сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект |
+| **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да|
+| **object_operating_company** | Управляющая компания ТО | str | |
+| **object_service_type** | Тип предоставляемой услуги ТО | str | |
+| **object_type** | Тип ТО  | str | |
+| **object_area** | Административный округ ТО| str | |
+| **object_district** | Район ТО | str| |
+| **object_address** | Адрес ТО | str ||
+| **object_phone** | Номер телефона ТО | str | |
+| **object_working_hours** | Время работы ТО | str | |
+| **object_working_hours_clarification** | Уточнение времени работы ТО | str | |
+| **object_size** | Размер ТО | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой |
+| **object_longitude** | Координаты расположения ТО: долгота | float | |
+| **object_latitude** | Координаты расположения ТО: широта | float | |
+| **object_real_reach_distance** | Зона охвата ТО, метры | float | 2000.0, 4000.0, 10000.0 |
+| **distance_to_tpu** | Расстояния от ТО до ближайшего ТПУ, метры | float | |
 | **tpu_name** | Название транспортно-пересадочного узла (ТПУ)| str | |
 | **tpu_global_id** | id ТПУ | float | |
 | **tpu_district** | Район, в котором находится ТПУ | str | |
@@ -83,17 +83,17 @@
 | **tpu_longitude** | Координаты расположения ТПУ: долгота | float | |
 | **tpu_latitude** | Координаты расположения ТПУ: широта | float | |
 | **tpu_latitude** | Координаты расположения ТПУ: широта| float | |
-| **object_district_square_m2** | Площадь района, в котором находится торговый объект, м2 | float | |
-| **object_district_population** | Население района, в котором находится торговый объект | float | |
-| **object_district_population_density** | Плотность населения района, в котором находится торговый объект | float | |
-| **object_district_living_space_m2** | Площадь жилого фонда района, в котором находится торговый объект | float | |
-| **object_district_living_space_m2_per_person** | Жилплощадь на человека района, в котором находится торговый объект | float | |
-| **object_district_building_property_price_per_m2** | Цена продажи м2 здания для района, в котором находится торговый объект | float | |
-| **object_district_tradeplace_property_price_per_m2** | Цена продажи м2 торгового помещения для района, в котором находится торговый объект | | float |
-| **object_district_generalplace_property_price_per_m2** | Цена продажи м2 помещения свободного назначения для района, в котором находится торговый объект | | float |
-| **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится торговый объект | float | |
-| **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится торговый объект | float | |
-| **object_district_generalplace_rent_price_per_m2**| Цена продажи м2 помещения свободного назначения для района, в котором находится торговый объект | float | |
+| **object_district_square_m2** | Площадь района, в котором находится ТО, м2 | float | |
+| **object_district_population** | Население района, в котором находится ТО | float | |
+| **object_district_population_density** | Плотность населения района, в котором находится ТО | float | |
+| **object_district_living_space_m2** | Площадь жилого фонда района, в котором находится ТО | float | |
+| **object_district_living_space_m2_per_person** | Жилплощадь на человека района, в котором находится ТО | float | |
+| **object_district_building_property_price_per_m2** | Цена продажи м2 здания для района, в котором находится ТО | float | |
+| **object_district_tradeplace_property_price_per_m2** | Цена продажи м2 торгового помещения для района, в котором находится ТО | float  | |
+| **object_district_generalplace_property_price_per_m2** | Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | |
+| **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится ТО | float | |
+| **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | |
+| **object_district_generalplace_rent_price_per_m2**| Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | |
 
 
 
