@@ -82,7 +82,6 @@
 | **tpu_car_capacity** | Количество машино-мест возле ТПУ | float | |
 | **tpu_longitude** | Координаты расположения ТПУ: долгота | float | |
 | **tpu_latitude** | Координаты расположения ТПУ: широта | float | |
-| **tpu_latitude** | Координаты расположения ТПУ: широта| float | |
 | **object_district_square_m2** | Площадь района, в котором находится ТО, м2 | float | |
 | **object_district_population** | Население района, в котором находится ТО | float | |
 | **object_district_population_density** | Плотность населения района, в котором находится ТО | float | |
