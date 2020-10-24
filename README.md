@@ -69,7 +69,7 @@
 | **object_global_id** | id ТО | int |  |  0 |
 | **object_name** | Название ТО| str | | 0 |
 | **is_network_object** | Является ли ТО сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект | 0 |
-| **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да | | 0 |
+| **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да | 0 |
 | **object_operating_company** | Управляющая компания ТО | str | | 58351 |
 | **object_service_type** | Тип предоставляемой услуги ТО | str | | 0  |
 | **object_type** | Тип ТО  | str | | 0 |
