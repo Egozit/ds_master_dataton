@@ -64,47 +64,47 @@
 * **ТО** - торговый объект
 * **ТПУ** - транспортно-пересадочный узел
 
-| **Название** | **Описание** | **Тип** | **Значения** | **Кол-во ненулевых значений** |
+| **Название** | **Описание** | **Тип** | **Значения** | **Кол-во NaN значений** |
 | ------ | ------ | ------ | ------ | ------ |
-| **object_global_id** | id ТО | int |  |  78086 |
-| **object_name** | Название ТО| str | | 78086 |
-| **is_network_object** | Является ли ТО сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект | 78086 |
-| **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да | | 78086  |
-| **object_operating_company** | Управляющая компания ТО | str | | 19735  |
-| **object_service_type** | Тип предоставляемой услуги ТО | str | | 78086  |
-| **object_type** | Тип ТО  | str | | 78086 |
-| **object_area** | Административный округ ТО| str | | 78086 |
-| **object_district** | Район ТО | str| | 78086 |
-| **object_address** | Адрес ТО | str | | 78086 |
-| **object_phone** | Номер телефона ТО | str | | 78086 |
-| **object_working_hours** | Время работы ТО | str | | 78086 |
-| **object_working_hours_clarification** | Уточнение времени работы ТО | str | | 90 |
-| **object_size** | Размер ТО | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой | 78086 |
-| **object_longitude** | Координаты расположения ТО: долгота | float | | 78086 |
-| **object_latitude** | Координаты расположения ТО: широта | float | | 78086 |
-| **object_real_reach_distance** | Зона охвата ТО | float | 2000.0, 4000.0, 10000.0 | 78086 |
-| **distance_to_tpu** | Расстояния от ТО до ближайшего ТПУ, метры | float | | 74509 |
-| **tpu_name** | Название ТПУ | str | | 74509 |
-| **tpu_global_id** | id ТПУ | float | | 74509 |
-| **tpu_district** | Район, в котором находится ТПУ | str | | 74509 | 
-| **tpu_near_station** | Ближайшая к ТПУ станция| str | | 74509 |
-| **tpu_comissioning_year** | Год сдачи ТПУ в эксплуатацию | float | | 74509 |
-| **tpu_status** | Статус ТПУ | str | проект, построен, строится | 74509 |
-| **tpu_available_transfer**| Доступные виды трансфера ТПУ | str | | 74509 |
-| **tpu_car_capacity** | Количество машино-мест возле ТПУ | float | | 28705 |
-| **tpu_longitude** | Координаты расположения ТПУ: долгота | float | | 74509 |
-| **tpu_latitude** | Координаты расположения ТПУ: широта | float | | 74509 |
-| **object_district_square_m2** | Площадь района, в котором находится ТО, м2 | float | | 58833 |
-| **object_district_population** | Население района, в котором находится ТО | float | | 58833 |
-| **object_district_population_density** | Плотность населения района, в котором находится ТО | float | | 58833 |
-| **object_district_living_space_m2** | Площадь жилого фонда района, в котором находится ТО | float | | 58833 |
-| **object_district_living_space_m2_per_person** | Жилплощадь на человека района, в котором находится ТО | float | | 58833 |
-| **object_district_building_property_price_per_m2** | Цена продажи м2 здания для района, в котором находится ТО | float | | 10303 |
-| **object_district_tradeplace_property_price_per_m2** | Цена продажи м2 торгового помещения для района, в котором находится ТО | float  | | 44479 |
-| **object_district_generalplace_property_price_per_m2** | Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | | 48173 |
-| **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится ТО | float | | 12784 |
-| **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | | 54603 |
-| **object_district_generalplace_rent_price_per_m2**| Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | | 58418 |
+| **object_global_id** | id ТО | int |  |  0 |
+| **object_name** | Название ТО| str | | 0 |
+| **is_network_object** | Является ли ТО сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект | 0 |
+| **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да | | 0 |
+| **object_operating_company** | Управляющая компания ТО | str | | 58351 |
+| **object_service_type** | Тип предоставляемой услуги ТО | str | | 0  |
+| **object_type** | Тип ТО  | str | | 0 |
+| **object_area** | Административный округ ТО| str | | 0 |
+| **object_district** | Район ТО | str| | 0 |
+| **object_address** | Адрес ТО | str | | 0 |
+| **object_phone** | Номер телефона ТО | str | | 0 |
+| **object_working_hours** | Время работы ТО | str | | 0 |
+| **object_working_hours_clarification** | Уточнение времени работы ТО | str | | 77996 |
+| **object_size** | Размер ТО | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой | 0 |
+| **object_longitude** | Координаты расположения ТО: долгота | float | | 0 |
+| **object_latitude** | Координаты расположения ТО: широта | float | | 0 |
+| **object_real_reach_distance** | Зона охвата ТО | float | 2000.0, 4000.0, 10000.0 | 0 |
+| **distance_to_tpu** | Расстояния от ТО до ближайшего ТПУ, метры | float | | 3577 |
+| **tpu_name** | Название ТПУ | str | | 3577 |
+| **tpu_global_id** | id ТПУ | float | | 3577 |
+| **tpu_district** | Район, в котором находится ТПУ | str | | 3577 | 
+| **tpu_near_station** | Ближайшая к ТПУ станция| str | | 3577 |
+| **tpu_comissioning_year** | Год сдачи ТПУ в эксплуатацию | float | | 3577 |
+| **tpu_status** | Статус ТПУ | str | проект, построен, строится | 3577 |
+| **tpu_available_transfer**| Доступные виды трансфера ТПУ | str | | 3577 |
+| **tpu_car_capacity** | Количество машино-мест возле ТПУ | float | | 49381 |
+| **tpu_longitude** | Координаты расположения ТПУ: долгота | float | | 3577 |
+| **tpu_latitude** | Координаты расположения ТПУ: широта | float | | 3577 |
+| **object_district_square_m2** | Площадь района, в котором находится ТО, м2 | float | | 19253 |
+| **object_district_population** | Население района, в котором находится ТО | float | | 19253 |
+| **object_district_population_density** | Плотность населения района, в котором находится ТО | float | | 19253 |
+| **object_district_living_space_m2** | Площадь жилого фонда района, в котором находится ТО | float | | 19253 |
+| **object_district_living_space_m2_per_person** | Жилплощадь на человека района, в котором находится ТО | float | | 19253 |
+| **object_district_building_property_price_per_m2** | Цена продажи м2 здания для района, в котором находится ТО | float | | 67783 |
+| **object_district_tradeplace_property_price_per_m2** | Цена продажи м2 торгового помещения для района, в котором находится ТО | float  | | 33607 |
+| **object_district_generalplace_property_price_per_m2** | Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | | 29913 |
+| **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится ТО | float | | 65302 |
+| **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | | 23483 |
+| **object_district_generalplace_rent_price_per_m2**| Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | | 19668 |
 
 
 
