@@ -105,7 +105,7 @@
 | **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | | 23483 |
 | **object_district_generalplace_rent_price_per_m2**| Цена аренды м2 помещения свободного назначения для района, в котором находится ТО | float | | 19668 |
 | **subway_station**| Станция метро | str | | 12494 |
-| **passengers_per_day**| Пассажиропоток в сутки | float | | 22218 |
+| **passengers_per_day**| Пассажиропоток в сутки | float | | 19984 |
 
 
 
