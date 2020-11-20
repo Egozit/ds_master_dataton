@@ -25,8 +25,8 @@
 
 <img align="center" src="https://i.ibb.co/3sMqBY2/map.png">
 <p float="left">
-  <img src="https://i.ibb.co/3sMqBY2/map.png" />
-  <img src="https://i.ibb.co/3sMqBY2/map.png" /> 
+  <img src="https://i.ibb.co/3sMqBY2/map.png" width="50%"/>
+  <img src="https://i.ibb.co/3sMqBY2/map.png" width="50%"/> 
 </p>
 
 ## Источники
