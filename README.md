@@ -61,8 +61,10 @@
     ├── final_dataset.zip                # финальная версия датасета
     ├── 02_team_hak_19_10_fin_vers.ipynb # финальная версия ноутбука
     └── README.md
-
+    
 ## Структура датасета
+
+Ссылка на датасет: [Google Drive](https://drive.google.com/file/d/179ShmAMQsWjTCGHWthf75jCD1lh7WPLC/view?usp=sharing)
 
 Датасет состоит из 44 столбцов и 78086 строк. <br/> 
 Объем занимаемой памяти: 25.9+ MB.
