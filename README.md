@@ -19,7 +19,7 @@
 Преимущество датасета состоит в том, что но актуален на настоящее время, содержит официальные данные и множество дополнительных характеристик.
 
 
-<img align="center" src="https://i.ibb.co/k4pMDNf/image.png">
+<img align="center" src="https://i.ibb.co/gz1cXR8/map.png">
 
 ## Источники
 
