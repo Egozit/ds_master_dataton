@@ -1,6 +1,6 @@
 # Торговые точки вблизи ТПУ, г.Москва
 
-<img align="right" width="100" height="100" src="https://i.ibb.co/TbyCPm8/logoza-ru-1.png">
+<img align="right" width="100" height="100" src="https://i.ibb.co/3sMqBY2/map.png">
 
 ## Команда «Data SkyScrapers»
 
