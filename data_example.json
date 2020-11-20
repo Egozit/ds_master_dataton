@@ -1,33 +1,77 @@
 {
     "0": {
         "object_global_id": 637390942,
+        "object_working_hours": [
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "понедельник"
+            },
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "вторник"
+            },
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "среда"
+            },
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "четверг"
+            },
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "пятница"
+            },
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "суббота"
+            },
+            {
+                "Hours": "09:30-21:30",
+                "DayOfWeek": "воскресенье"
+            }
+        ],
         "object_name": "Одежда. Обувь. Промтовары",
-        "is_network_object": 0,
         "is_tpu_in_coverage": 1,
-        "object_operating_company": null,
+        "is_network_object": 0,
         "object_service_type": "реализация непродовольственных товаров",
         "object_type": "Магазин «Промтовары»",
         "object_area": "Северный административный округ",
         "object_district": "Беговой",
         "object_address": "город Москва, Беговая аллея, дом 3А",
         "object_phone": "(977) 757-40-37",
-        "object_working_hours": "День недели: понедельник\nЧасы работы: 09:30-21:30\n\nДень недели: вторник\nЧасы работы: 09:30-21:30\n\nДень недели: среда\nЧасы работы: 09:30-21:30\n\nДень недели: четверг\nЧасы работы: 09:30-21:30\n\nДень недели: пятница\nЧасы работы: 09:30-21:30\n\nДень недели: суббота\nЧасы работы: 09:30-21:30\n\nДень недели: воскресенье\nЧасы работы: 09:30-21:30",
+        "object_operating_company": null,
         "object_working_hours_clarification": null,
-        "object_size": 1,
         "object_longitude": 37.564782,
         "object_latitude": 55.783361,
+        "object_size": 1,
         "object_real_reach_distance": 2000.0,
-        "distance_to_tpu": 947.3291269691,
-        "tpu_name": "Транспортно-пересадочный узел «Петровский парк» (п)",
-        "tpu_global_id": 1770010.0,
-        "tpu_district": "Аэропорт",
+        "tpu_global_id": 3286733966040740996,
+        "distance_to_tpu": 947,
+        "tpu_name": "Транспортно-пересадочный узел «Петровский парк»",
+        "tpu_content": {
+            "1770010": "п"
+        },
+        "tpu_content_count": 1,
+        "tpu_district": {
+            "1770010": "Аэропорт"
+        },
         "tpu_near_station": "станция метро «Петровский парк»",
-        "tpu_comissioning_year": 2015.0,
+        "tpu_comissioning_year": 2015,
         "tpu_status": "проект",
-        "tpu_available_transfer": "метро; перехватывающая парковка",
+        "tpu_available_transfer": "метро, перехватывающая парковка",
         "tpu_car_capacity": 300.0,
-        "tpu_longitude": 37.5568885764,
-        "tpu_latitude": 55.7906145564,
+        "tpu_longitude": {
+            "1770010": 37.5568885764,
+            "center": 37.5568885764
+        },
+        "tpu_latitude": {
+            "1770010": 55.7906145564,
+            "center": 55.7906145564
+        },
+        "subway_station": "Петровский парк",
+        "subway_line": "Каховская, Солнцевская",
+        "subway_passengers_per_day": null,
         "object_district_square_m2": 5560.0,
         "object_district_population": 42908.0,
         "object_district_population_density": 7717.27,
@@ -42,33 +86,77 @@
     },
     "1": {
         "object_global_id": 637391109,
+        "object_working_hours": [
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "понедельник"
+            },
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "вторник"
+            },
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "среда"
+            },
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "четверг"
+            },
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "пятница"
+            },
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "суббота"
+            },
+            {
+                "Hours": "10:00-21:00",
+                "DayOfWeek": "воскресенье"
+            }
+        ],
         "object_name": "АЙКОВЕР",
-        "is_network_object": 0,
         "is_tpu_in_coverage": 1,
-        "object_operating_company": null,
+        "is_network_object": 0,
         "object_service_type": "реализация непродовольственных товаров",
         "object_type": "Магазин-салон",
         "object_area": "Центральный административный округ",
         "object_district": "Тверской",
         "object_address": "город Москва, Новослободская улица, дом 50/1, строение 2",
         "object_phone": "(499) 250-12-40",
-        "object_working_hours": "День недели: понедельник\nЧасы работы: 10:00-21:00\n\nДень недели: вторник\nЧасы работы: 10:00-21:00\n\nДень недели: среда\nЧасы работы: 10:00-21:00\n\nДень недели: четверг\nЧасы работы: 10:00-21:00\n\nДень недели: пятница\nЧасы работы: 10:00-21:00\n\nДень недели: суббота\nЧасы работы: 10:00-21:00\n\nДень недели: воскресенье\nЧасы работы: 10:00-21:00",
+        "object_operating_company": null,
         "object_working_hours_clarification": null,
-        "object_size": 1,
         "object_longitude": 37.5948494824,
         "object_latitude": 55.7865588639,
+        "object_size": 1,
         "object_real_reach_distance": 2000.0,
-        "distance_to_tpu": 794.7466395734,
-        "tpu_name": "Транспортно-пересадочный узел «Новослободская» (п)",
-        "tpu_global_id": 1769880.0,
-        "tpu_district": "Тверской",
+        "tpu_global_id": 7304943662069418954,
+        "distance_to_tpu": 794,
+        "tpu_name": "Транспортно-пересадочный узел «Новослободская»",
+        "tpu_content": {
+            "1769880": "п"
+        },
+        "tpu_content_count": 1,
+        "tpu_district": {
+            "1769880": "Тверской"
+        },
         "tpu_near_station": "станция метро «Новослободская»",
-        "tpu_comissioning_year": 2014.0,
+        "tpu_comissioning_year": 2014,
         "tpu_status": "построен",
         "tpu_available_transfer": "метро",
         "tpu_car_capacity": 39.0,
-        "tpu_longitude": 37.6005181606,
-        "tpu_latitude": 55.7801753808,
+        "tpu_longitude": {
+            "1769880": 37.6005181606,
+            "center": 37.6005181606
+        },
+        "tpu_latitude": {
+            "1769880": 55.7801753808,
+            "center": 55.7801753808
+        },
+        "subway_station": "Новослободская",
+        "subway_line": "Кольцевая",
+        "subway_passengers_per_day": 49000.0,
         "object_district_square_m2": 7270.0,
         "object_district_population": 77947.0,
         "object_district_population_density": 10721.73,
@@ -83,33 +171,77 @@
     },
     "2": {
         "object_global_id": 637391684,
+        "object_working_hours": [
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "понедельник"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "вторник"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "среда"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "четверг"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "пятница"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "суббота"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "воскресенье"
+            }
+        ],
         "object_name": "Магазин «Радуга»",
-        "is_network_object": 0,
         "is_tpu_in_coverage": 1,
-        "object_operating_company": null,
+        "is_network_object": 0,
         "object_service_type": "реализация продовольственных товаров",
         "object_type": "Магазин «Продукты»",
         "object_area": "Юго-Восточный административный округ",
         "object_district": "Марьино",
         "object_address": "город Москва, Марьинский бульвар, дом 4",
         "object_phone": "(909) 977-22-02",
-        "object_working_hours": "День недели: понедельник\nЧасы работы: 10:00-22:00\n\nДень недели: вторник\nЧасы работы: 10:00-22:00\n\nДень недели: среда\nЧасы работы: 10:00-22:00\n\nДень недели: четверг\nЧасы работы: 10:00-22:00\n\nДень недели: пятница\nЧасы работы: 10:00-22:00\n\nДень недели: суббота\nЧасы работы: 10:00-22:00\n\nДень недели: воскресенье\nЧасы работы: 10:00-22:00",
+        "object_operating_company": null,
         "object_working_hours_clarification": null,
-        "object_size": 1,
         "object_longitude": 37.749818554,
         "object_latitude": 55.6479554152,
+        "object_size": 1,
         "object_real_reach_distance": 2000.0,
-        "distance_to_tpu": 447.3445067665,
-        "tpu_name": "Транспортно-пересадочный узел «Марьино» (к)",
-        "tpu_global_id": 1769856.0,
-        "tpu_district": "Марьино",
+        "tpu_global_id": 4754461595347351149,
+        "distance_to_tpu": 447,
+        "tpu_name": "Транспортно-пересадочный узел «Марьино»",
+        "tpu_content": {
+            "1769856": "к"
+        },
+        "tpu_content_count": 1,
+        "tpu_district": {
+            "1769856": "Марьино"
+        },
         "tpu_near_station": "станция метро «Марьино»",
-        "tpu_comissioning_year": 2018.0,
+        "tpu_comissioning_year": 2018,
         "tpu_status": "проект",
-        "tpu_available_transfer": "метро; перехватывающая парковка",
+        "tpu_available_transfer": "метро, перехватывающая парковка",
         "tpu_car_capacity": 230.0,
-        "tpu_longitude": 37.7443339999,
-        "tpu_latitude": 55.65051,
+        "tpu_longitude": {
+            "1769856": 37.7443339999,
+            "center": 37.7443339999
+        },
+        "tpu_latitude": {
+            "1769856": 55.65051,
+            "center": 55.65051
+        },
+        "subway_station": "Марьино",
+        "subway_line": "Люблинская",
+        "subway_passengers_per_day": 181900.0,
         "object_district_square_m2": 11910.0,
         "object_district_population": 254142.0,
         "object_district_population_density": 21338.54,
@@ -124,33 +256,77 @@
     },
     "3": {
         "object_global_id": 637391714,
+        "object_working_hours": [
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "понедельник"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "вторник"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "среда"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "четверг"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "пятница"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "суббота"
+            },
+            {
+                "Hours": "10:00-22:00",
+                "DayOfWeek": "воскресенье"
+            }
+        ],
         "object_name": "Точка любви",
-        "is_network_object": 1,
         "is_tpu_in_coverage": 1,
-        "object_operating_company": "Точка любви",
+        "is_network_object": 1,
         "object_service_type": "реализация непродовольственных товаров",
         "object_type": "Прочие специализированные непродовольственные предприятия торговли",
         "object_area": "Северный административный округ",
         "object_district": "Беговой",
         "object_address": "город Москва, Ленинградский проспект, дом 12",
         "object_phone": "(985) 780-51-78",
-        "object_working_hours": "День недели: понедельник\nЧасы работы: 10:00-22:00\n\nДень недели: вторник\nЧасы работы: 10:00-22:00\n\nДень недели: среда\nЧасы работы: 10:00-22:00\n\nДень недели: четверг\nЧасы работы: 10:00-22:00\n\nДень недели: пятница\nЧасы работы: 10:00-22:00\n\nДень недели: суббота\nЧасы работы: 10:00-22:00\n\nДень недели: воскресенье\nЧасы работы: 10:00-22:00",
+        "object_operating_company": "Точка любви",
         "object_working_hours_clarification": null,
-        "object_size": 1,
         "object_longitude": 37.5787834986,
         "object_latitude": 55.7801880647,
+        "object_size": 1,
         "object_real_reach_distance": 2000.0,
-        "distance_to_tpu": 1798.4730440134,
-        "tpu_name": "Транспортно-пересадочный узел «Петровский парк» (п)",
-        "tpu_global_id": 1770010.0,
-        "tpu_district": "Аэропорт",
-        "tpu_near_station": "станция метро «Петровский парк»",
-        "tpu_comissioning_year": 2015.0,
+        "tpu_global_id": 8912949991921315044,
+        "distance_to_tpu": 418,
+        "tpu_name": "Транспортно-пересадочный узел «Белорусский»",
+        "tpu_content": {
+            "170430036": "к"
+        },
+        "tpu_content_count": 1,
+        "tpu_district": {
+            "170430036": "Тверской"
+        },
+        "tpu_near_station": "Белорусский вокзал",
+        "tpu_comissioning_year": 2020,
         "tpu_status": "проект",
-        "tpu_available_transfer": "метро; перехватывающая парковка",
-        "tpu_car_capacity": 300.0,
-        "tpu_longitude": 37.5568885764,
-        "tpu_latitude": 55.7906145564,
+        "tpu_available_transfer": "станция железной дороги, перехватывающая парковка",
+        "tpu_car_capacity": null,
+        "tpu_longitude": {
+            "170430036": 37.581831,
+            "center": 37.581831
+        },
+        "tpu_latitude": {
+            "170430036": 55.7768419999,
+            "center": 55.7768419999
+        },
+        "subway_station": null,
+        "subway_line": null,
+        "subway_passengers_per_day": null,
         "object_district_square_m2": 5560.0,
         "object_district_population": 42908.0,
         "object_district_population_density": 7717.27,
@@ -165,33 +341,77 @@
     },
     "4": {
         "object_global_id": 637391844,
+        "object_working_hours": [
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "понедельник"
+            },
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "вторник"
+            },
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "среда"
+            },
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "четверг"
+            },
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "пятница"
+            },
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "суббота"
+            },
+            {
+                "Hours": "круглосуточно",
+                "DayOfWeek": "воскресенье"
+            }
+        ],
         "object_name": "ПРОДУКТЫ",
+        "is_tpu_in_coverage": 1,
         "is_network_object": 0,
-        "is_tpu_in_coverage": 0,
-        "object_operating_company": null,
         "object_service_type": "реализация продовольственных товаров",
         "object_type": "Магазин «Продукты»",
         "object_area": "Юго-Восточный административный округ",
         "object_district": "Лефортово",
         "object_address": "город Москва, Волочаевская улица, дом 40Б",
         "object_phone": "(495) 361-17-35",
-        "object_working_hours": "День недели: понедельник\nЧасы работы: круглосуточно\n\nДень недели: вторник\nЧасы работы: круглосуточно\n\nДень недели: среда\nЧасы работы: круглосуточно\n\nДень недели: четверг\nЧасы работы: круглосуточно\n\nДень недели: пятница\nЧасы работы: круглосуточно\n\nДень недели: суббота\nЧасы работы: круглосуточно\n\nДень недели: воскресенье\nЧасы работы: круглосуточно",
+        "object_operating_company": null,
         "object_working_hours_clarification": null,
-        "object_size": 1,
         "object_longitude": 37.6781395325,
         "object_latitude": 55.7524819783,
+        "object_size": 1,
         "object_real_reach_distance": 2000.0,
-        "distance_to_tpu": 2111.662632952,
-        "tpu_name": "Транспортно-пересадочный узел «Лефортово» (к)",
-        "tpu_global_id": 1770064.0,
-        "tpu_district": "Лефортово",
-        "tpu_near_station": "станция метро «Лефортово»",
-        "tpu_comissioning_year": 2020.0,
+        "tpu_global_id": 6697436853560568377,
+        "distance_to_tpu": 676,
+        "tpu_name": "Транспортно-пересадочный узел «Площадь Ильича»",
+        "tpu_content": {
+            "1770035": "п"
+        },
+        "tpu_content_count": 1,
+        "tpu_district": {
+            "1770035": "Таганский"
+        },
+        "tpu_near_station": "платформа «Площадь Ильича», станция метро «Площадь Ильича»",
+        "tpu_comissioning_year": 2020,
         "tpu_status": "проект",
-        "tpu_available_transfer": "метро",
+        "tpu_available_transfer": "метро, пригородная железная дорога",
         "tpu_car_capacity": null,
-        "tpu_longitude": 37.704263,
-        "tpu_latitude": 55.7644289998,
+        "tpu_longitude": {
+            "1770035": 37.6806269999,
+            "center": 37.6806269999
+        },
+        "tpu_latitude": {
+            "1770035": 55.746569,
+            "center": 55.746569
+        },
+        "subway_station": "Площадь Ильича",
+        "subway_line": "Калининская",
+        "subway_passengers_per_day": 32700.0,
         "object_district_square_m2": 9060.0,
         "object_district_population": 95467.0,
         "object_district_population_density": 10537.2,
