@@ -64,58 +64,58 @@
 
 ## Структура датасета
 
-Датасет состоит из 41 столбцов и 78086 строк. <br/> 
-Объем занимаемой памяти: 23.5+ MB.
+Датасет состоит из 44 столбцов и 78086 строк. <br/> 
+Объем занимаемой памяти: 25.9+ MB.
 
 Список используемых сокращений:
 * **ТО** - торговый объект
 * **ТПУ** - транспортно-пересадочный узел
 
-| **Название** | **Описание** | **Тип** | **Значения** | **Кол-во NaN значений** |
-| ------ | ------ | ------ | ------ | ------ |
-| **object_global_id** | id ТО | int |  |  0 |
-| **object_name** | Название ТО| str | | 0 |
-| **is_network_object** | Является ли ТО сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект | 0 |
-| **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да | 0 |
-| **object_operating_company** | Управляющая компания ТО | str | | 58351 |
-| **object_service_type** | Тип предоставляемой услуги ТО | str | | 0  |
-| **object_type** | Тип ТО  | str | | 0 |
-| **object_area** | Административный округ ТО| str | | 0 |
-| **object_district** | Район ТО | str| | 0 |
-| **object_address** | Адрес ТО | str | | 0 |
-| **object_phone** | Номер телефона ТО | str | | 0 |
-| **object_working_hours** | Время работы ТО | str | | 0 |
-| **object_working_hours_clarification** | Уточнение времени работы ТО | str | | 77996 |
-| **object_size** | Размер ТО | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой | 0 |
-| **object_longitude** | Координаты расположения ТО: долгота | float | | 0 |
-| **object_latitude** | Координаты расположения ТО: широта | float | | 0 |
-| **object_real_reach_distance** | Зона охвата ТО | float | 2000.0, 4000.0, 10000.0 | 0 |
-| **distance_to_tpu** | Расстояния от ТО до ближайшего ТПУ, метры | float | | 3577 |
-| **tpu_name** | Название ТПУ | str | | 3577 |
-| **tpu_global_id** | id ТПУ | float | | 3577 |
-| **tpu_district** | Район, в котором находится ТПУ | str | | 3577 | 
-| **tpu_near_station** | Ближайшая к ТПУ станция| str | | 3577 |
-| **tpu_comissioning_year** | Год сдачи ТПУ в эксплуатацию | float | | 3577 |
-| **tpu_status** | Статус ТПУ | str | проект, построен, строится | 3577 |
-| **tpu_available_transfer**| Доступные виды трансфера ТПУ | str | | 3577 |
-| **tpu_car_capacity** | Количество машино-мест возле ТПУ | float | | 49381 |
-| **tpu_longitude** | Координаты расположения ТПУ: долгота | float | | 3577 |
-| **tpu_latitude** | Координаты расположения ТПУ: широта | float | | 3577 |
-| **object_district_square_m2** | Площадь района, в котором находится ТО, м2 | float | | 19253 |
-| **object_district_population** | Население района, в котором находится ТО | float | | 19253 |
-| **object_district_population_density** | Плотность населения района, в котором находится ТО | float | | 19253 |
-| **object_district_living_space_m2** | Площадь жилого фонда района, в котором находится ТО | float | | 19253 |
-| **object_district_living_space_m2_per_person** | Жилплощадь на человека района, в котором находится ТО | float | | 19253 |
-| **object_district_building_property_price_per_m2** | Цена продажи м2 здания для района, в котором находится ТО | float | | 67783 |
-| **object_district_tradeplace_property_price_per_m2** | Цена продажи м2 торгового помещения для района, в котором находится ТО | float  | | 33607 |
-| **object_district_generalplace_property_price_per_m2** | Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | | 29913 |
-| **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится ТО | float | | 65302 |
-| **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | | 23483 |
-| **object_district_generalplace_rent_price_per_m2**| Цена аренды м2 помещения свободного назначения для района, в котором находится ТО | float | | 19668 |
-| **subway_station**| Станция метро | str | | 12494 |
-| **passengers_per_day**| Пассажиропоток в сутки | float | | 19984 |
-
-
-
+|№| **Название** | **Описание** | **Тип** | **Значения** | **Кол-во NaN значений** |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 1 | **object_global_id** | id ТО | int |  |  0 |
+| 2 | **object_name** | Название ТО| str | | 0 |
+| 3 | **is_network_object** | Является ли ТО сетевым | int | 0 = не сетевой объект, <br/> 1 = сетевой объект | 0 |
+| 4 | **is_tpu_in_coverage** | Находится ли ТО в зоне покрытия ТПУ | int | 0 = нет, <br/> 1 = да | 0 |
+| 5 | **object_operating_company** | Управляющая компания ТО | str | | 58351 |
+| 6 | **object_service_type** | Тип предоставляемой услуги ТО | str | | 0  |
+| 7 | **object_type** | Тип ТО  | str | | 0 |
+| 8 | **object_area** | Административный округ ТО| str | | 0 |
+| 9 | **object_district** | Район ТО | str| | 0 |
+| 10 | **object_address** | Адрес ТО | str | | 0 |
+| 11 | **object_phone** | Номер телефона ТО | str | | 0 |
+| 12 | **object_working_hours** | Время работы ТО | dict | | 0 |
+| 13 | **object_working_hours_clarification** | Уточнение времени работы ТО | str | | 77996 |
+| 14 | **object_size** | Размер ТО | int | 1 = маленький, <br/> 2 = средний, <br/>  3 = большой | 0 |
+| 15 | **object_longitude** | Координаты расположения ТО: долгота | float | | 0 |
+| 16 | **object_latitude** | Координаты расположения ТО: широта | float | | 0 |
+| 17 | **object_real_reach_distance** | Зона охвата ТО | float | 2000.0, 4000.0, 10000.0 | 0 |
+| 18 | **distance_to_tpu** | Расстояния от ТО до ближайшего ТПУ, метры | float | | 0 |
+| 19 | **tpu_name** | Название ТПУ | str | | 0 |
+| 20 | **tpu_global_id** | id ТПУ | float | | 0 |
+| 21 | **tpu_content** | id включенных станций ТПУ | dict | | 0 |
+| 22 | **tpu_content_count** | кол-во включенных станций ТПУ | int | | 0 |
+| 23 | **tpu_district** | Район, в котором находится ТПУ | dict | | 0 | 
+| 24 | **tpu_near_station** | Ближайшая к ТПУ станция| str | | 0 |
+| 25 | **tpu_comissioning_year** | Год сдачи ТПУ в эксплуатацию | float | | 0 |
+| 26 | **tpu_status** | Статус ТПУ | str | проект, построен, строится, частично построен | 0 |
+| 27 | **tpu_available_transfer**| Доступные виды трансфера ТПУ | str | | 3577 |
+| 28 | **tpu_car_capacity** | Количество машино-мест возле ТПУ | float | | 41795 |
+| 29 | **tpu_longitude** | Координаты расположения ТПУ: долгота | dict | | 0 |
+| 30 | **tpu_latitude** | Координаты расположения ТПУ: широта | dict | | 0 |
+| 31 | **subway_station** | Ближайшая станция метро | str | | 11093 |
+| 32 | **subway_line** | Линия ближайшей станции метро | str | | 19652 |
+| 33 | **subway_passengers_per_day** | Пассажиропоток ближайшей станции метро | float | | 20765 |
+| 34 | **object_district_square_m2** | Площадь района, в котором находится ТО, м2 | float | | 19253 |
+| 35 | **object_district_population** | Население района, в котором находится ТО | float | | 19253 |
+| 36 | **object_district_population_density** | Плотность населения района, в котором находится ТО | float | | 19253 |
+| 37 | **object_district_living_space_m2** | Площадь жилого фонда района, в котором находится ТО | float | | 19253 |
+| 38 | **object_district_living_space_m2_per_person** | Жилплощадь на человека района, в котором находится ТО | float | | 19253 |
+| 39 | **object_district_building_property_price_per_m2** | Цена продажи м2 здания для района, в котором находится ТО | float | | 67783 |
+| 40 | **object_district_tradeplace_property_price_per_m2** | Цена продажи м2 торгового помещения для района, в котором находится ТО | float  | | 33607 |
+| 41 | **object_district_generalplace_property_price_per_m2** | Цена продажи м2 помещения свободного назначения для района, в котором находится ТО | float | | 29913 |
+| 42 | **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится ТО | float | | 65302 |
+| 43 | **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | | 23483 |
+| 44 | **object_district_generalplace_rent_price_per_m2**| Цена аренды м2 помещения свободного назначения для района, в котором находится ТО | float | | 19668 |
 
 
