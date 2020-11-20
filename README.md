@@ -23,15 +23,19 @@
 
 ## Источники
 
-В датасете были использованы следующие данные с сайта [Портал открытых данных](https://data.mos.ru):
+В датасете были использованы следующие данные с сайта [Портал открытых данных](https://data.mos.ru) города Москва:
 
 * [Транспортно-пересадочные узлы](https://data.mos.ru/opendata/7704786030-transportno-peresadochnye-uzly?pageNumber=1&versionNumber=4&releaseNumber=27)
 * [Стационарные торговые объекты](https://data.mos.ru/opendata/7710881420-statsionarnye-torgovye-obekty?pageNumber=1&versionNumber=1&releaseNumber=22)
 * [Бытовые услуги на территории Москвы](https://data.mos.ru/opendata/7710881420-bytovye-uslugi-na-territorii-moskvy/data/table?versionNumber=2&releaseNumber=30)
 
-Расчет торговой зоны и зоны охвата магазина был произведен на основе статьи ["Расчет торговой зоны и зоны охвата магазина"](http://www.arhitrade.com/education.php?Id=43). <br/> 
-Информация о районах: [Wikipedia: Список районов и поселений Москвы](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%BE%D0%B2_%D0%B8_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B). <br/> 
-Информация о ценах на коммерческую недвижимость: [Restate](https://msk.restate.ru/graph/ceny-arendy-kommercheskoy/). <br/> 
+Другие источники:
+<br/> 
+ * Расчет торговой зоны и зоны охвата магазина был произведен на основе статьи ["Расчет торговой зоны и зоны охвата магазина"](http://www.arhitrade.com/education.php?Id=43)
+ * Информация о районах: [Wikipedia: Список районов и поселений Москвы](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%BE%D0%B2_%D0%B8_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B)
+ * Информация о ценах на коммерческую недвижимость: [Restate](https://msk.restate.ru/graph/ceny-arendy-kommercheskoy/)
+ * Сведения о пассажиропотоке на станциях: [Рекламное агентство Метро Москвы](https://www.metro-msk.ru/stat/2019/)
+ * [Геоданные](http://gis-lab.info/data/mos-adm/mo.geojson) о форме административных районов и округов Москвы
 
 ## Методы сбора и обработки
 
