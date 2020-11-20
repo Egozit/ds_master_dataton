@@ -1,6 +1,6 @@
 # Торговые точки вблизи ТПУ, г.Москва
 
-<img align="right" width="100" height="100" src="https://i.ibb.co/3sMqBY2/map.png">
+<img align="right" width="100" height="100" src="https://i.ibb.co/TbyCPm8/logoza-ru-1.png">
 
 ## Команда «Data SkyScrapers»
 
@@ -19,7 +19,7 @@
 Преимущество датасета состоит в том, что но актуален на настоящее время, содержит официальные данные и множество дополнительных характеристик.
 
 
-<img align="center" src="https://i.ibb.co/1Jz5Qr1/map.png">
+<img align="center" src="https://i.ibb.co/3sMqBY2/map.png">
 
 ## Источники
 
