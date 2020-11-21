@@ -63,6 +63,17 @@
     ├── 02_team_hak_19_10_visualisation.ipynb # ноутбук, блок визуализации
     └── README.md
 
+## Описание ноутбуков
+
+Ноутбуки разделены на две части: [сбор данных](https://github.com/Egozit/ds_master_dataton/blob/main/02_team_hak_19_10_data_gathering.ipynb) и [визуализация](https://github.com/Egozit/ds_master_dataton/blob/main/02_team_hak_19_10_visualisation.ipynb).
+
+В блоке **сбор данных** собран весь код, направленный на сбор, объединение и очистку данных. Результатом является описанный выше [датасет](https://drive.google.com/file/d/179ShmAMQsWjTCGHWthf75jCD1lh7WPLC/view?usp=sharing) по торговым точкам вблизи ТПУ, г.Москва.
+
+В блоке **визуализация** представленны функции для отображения объектов на карте и различные графики.
+
+
+**Работа над кодом велась в Google Colab, мы не гарантируем совместимость с другими приложениями!**
+
 ## Структура датасета
 
 Ссылка на датасет: [Google Drive](https://drive.google.com/file/d/179ShmAMQsWjTCGHWthf75jCD1lh7WPLC/view?usp=sharing)
@@ -120,15 +131,3 @@
 | 42 | **object_district_building_rent_price_per_m2** | Цена аренды м2 здания для района, в котором находится ТО | float | 65302 | |
 | 43 | **object_district_tradeplace_rent_price_per_m2**| Цена аренды м2 торгового помещения для района, в котором находится ТО | float | 23483 | |
 | 44 | **object_district_generalplace_rent_price_per_m2**| Цена аренды м2 помещения свободного назначения для района, в котором находится ТО | float | 19668 | |
-
-
-## Описание ноутбуков
-
-Ноутбуки разделены на две части: [сбор данных](https://github.com/Egozit/ds_master_dataton/blob/main/02_team_hak_19_10_data_gathering.ipynb) и [визуализация](https://github.com/Egozit/ds_master_dataton/blob/main/02_team_hak_19_10_visualisation.ipynb).
-
-В блоке **сбор данных** собран весь код, направленный на сбор, объединение и очистку данных. Результатом является описанный выше [датасет](https://drive.google.com/file/d/179ShmAMQsWjTCGHWthf75jCD1lh7WPLC/view?usp=sharing) по торговым точкам вблизи ТПУ, г.Москва.
-
-В блоке **визуализация** представленны функции для отображения объектов на карте и различные графики.
-
-
-**Работа над кодом велась в Google Colab, мы не гарантируем совместимость с другими приложениями!**
