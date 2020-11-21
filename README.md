@@ -123,7 +123,7 @@
 
 
 ## Описание ноутбуков
-<br/> 
+
 **Работа над кодом велась в Google Colab, поэтому мы не можем гарантировать корректную работу в других приложениях!**
 <br/> 
 Ноутбуки разделены на две части: [сбор данных](https://github.com/Egozit/ds_master_dataton/blob/main/02_team_hak_19_10_data_gathering.ipynb) и [визуализация](https://github.com/Egozit/ds_master_dataton/blob/main/02_team_hak_19_10_visualisation.ipynb).
