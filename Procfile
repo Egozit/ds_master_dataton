@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run visualisation.py
+web: sh setup.sh && streamlit run fol_app.py
