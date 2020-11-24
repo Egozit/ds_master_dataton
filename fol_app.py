@@ -20,7 +20,8 @@ from ast import literal_eval
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(layout="wide")
+st.set_page_config(page_title='data-skyscrapers', layout="wide")
+
 def main():
     main_df, tpu_data = load_data()
     page = st.sidebar.selectbox("Выберите страницу", ["Главная", "Карта ТПУ Москвы", 
@@ -147,7 +148,7 @@ def main():
         
 
 
-@st.cache
+@st.cache(show_spinner=False)
 def load_data():
     url = 'https://drive.google.com/uc?export=download&id=179ShmAMQsWjTCGHWthf75jCD1lh7WPLC'
     main_df = pd.read_csv(url, sep=';', encoding='cp1251',
