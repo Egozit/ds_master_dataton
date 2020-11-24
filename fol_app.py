@@ -80,8 +80,8 @@ def main():
             
         [Геоданные](http://gis-lab.info/data/mos-adm/mo.geojson) о форме административных районов и округов Москвы
         '''
-    elif page == "Карта Москвы":
-        value = 6.6767676767
+    elif page == "Карта ТПУ Москвы":
+
         st.title("Карта Москвы")
         st.write("Всего ТПУ на карте: ", tpu_data.shape[0])
         st.write("Всего торговых точек: ", main_df.shape[0])
@@ -110,7 +110,7 @@ def main():
                         translit=translit)
         folium_static(m, width=1000, height=700)
         
-    elif page == "Карта ТПУ":
+    elif page == "Карта окрестности ТПУ":
         st.title("Карта ТПУ")
         c1, _ = st.beta_columns((2, 1))
         tpu_name = c1.selectbox('Выберите ТПУ:',main_df['tpu_name'].unique())
