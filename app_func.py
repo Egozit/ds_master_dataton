@@ -53,7 +53,7 @@ def transliterate(name):
     return name
 
 
-def plot_map_tpu(tpu_name, tpu_data, main_df):
+def plot_map_tpu(tpu_name, tpu_data, main_df, translit=False):
     """
     This function visualizes shopping facilities, which are in the reach 
     distance of transport hub specified in tpu_name 
@@ -96,6 +96,8 @@ def plot_map_tpu(tpu_name, tpu_data, main_df):
           description += f'<li>{option.lower()}'     
     description += f'</ul><p>Availible parking slots: {tpu_slots}'
     
+    if translit==True:
+        description = transliterate(description)
     iframe = folium.IFrame(html=description, width=600, height=300)
     popup_description = folium.Popup(iframe, max_width=2650) 
     
@@ -142,6 +144,8 @@ def plot_map_tpu(tpu_name, tpu_data, main_df):
                 for obj_info in info[curr_obj_size]:
                     description += (f'<li>{obj_info}')
                 description += '</ul><hr><br>'
+        if translit==True:
+            description = transliterate(description)
         iframe = folium.IFrame(html=description, width=600, height=300)
         popup_description = folium.Popup(iframe, max_width=2650)
         
@@ -388,14 +392,13 @@ def split_line(string, max_length):
                  string[first_line_end:].replace(' ', '\n', 1)
     return string
 
-def plot_top_by_col(col, df, n, name, other=False, translite=False, 
+def plot_top_by_col(col, df, n, name, other=False, translit=False, 
                     max_string_len=15, horizontally=False, labels =[],
-                    palette = sns.color_palette("pastel"),
-                    figsize=(17, 10)):
+                    palette = sns.color_palette("pastel"), figsize=(7, 6)):
     '''
     This function plot barplot for selected column 
     '''
-    fig, ax = plt.subplots(figsize=figsize)
+    fig, ax = plt.subplots()
     angle = 0
     temp_df = df[col].value_counts()
     df_other = temp_df.iloc[n:].sum()
@@ -403,8 +406,8 @@ def plot_top_by_col(col, df, n, name, other=False, translite=False,
     if other == True:
         temp_df['other'] =  df_other
         
-    if translite == True:
-        temp_df.index=[transliterate(name) for name in temp_df.index]
+    if translit == True:
+        temp_df.index=[transliterate(str(name)) for name in temp_df.index]
     if  isinstance(temp_df.index[0], str):   
         max_width = max([len(str) for str in temp_df.index])
         if max_width > max_string_len:
@@ -413,11 +416,13 @@ def plot_top_by_col(col, df, n, name, other=False, translite=False,
         temp_df.index = [split_line(name, max_string_len) for
                          name in temp_df.index]
     if horizontally ==True:  
-        ax = sns.barplot(y=temp_df.index, x=temp_df, data=df,
+        ax = sns.barplot(y=temp_df.index.values, x=temp_df, data=df,
                  palette=palette)
         ax.set(xlabel='Count')
         if len(labels)>0:
             ax.set_yticklabels(labels)
+        else:
+            ax.set_yticklabels(temp_df.index)
 
     else:
     
@@ -430,5 +435,5 @@ def plot_top_by_col(col, df, n, name, other=False, translite=False,
             ax.set_xticklabels(ax.get_xticklabels(),rotation=angle)
     ax.set_title(name)
 
-    plt.show()
+    return plt
 
